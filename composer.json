@@ -3,6 +3,6 @@
   "type": "wordpress-plugin",
   "require": {
     "composer/installers": "^1.0",
-	"evercall/api-sdk"
+	"evercall/api-sdk": "1.0.0-alpha1"
   }
 }
