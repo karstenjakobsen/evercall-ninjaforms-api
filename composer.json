@@ -1,0 +1,8 @@
+{
+  "name": "evercall/wordpress-ninjaforms",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.0",
+	"evercall/api-sdk"
+  }
+}
