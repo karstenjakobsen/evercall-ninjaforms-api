@@ -1,4 +1,8 @@
 <?php
+error_reporting(E_ALL);
+
+require_once 'vendor/autoload.php';
+
 // Make sure we don't expose any info if called directly
 if ( !function_exists( 'add_action' ) ):
 	echo 'Hi there!  I\'m just a plugin, not much I can do when called directly.';
@@ -11,6 +15,7 @@ define( 'EVERCALL_NINJAFORMS_PLUGIN_DIR', __DIR__ );
 
 require_once 'src/Actions.php';
 require_once 'src/SettingsPage.php';
+require_once 'src/ActionTelemeetingInvitationSMS.php';
 
 /**
  * Plugin Name: evercall Ninja Forms API
